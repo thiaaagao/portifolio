@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;451&display=swap');
+
+*  {  /* ZERANDO MARGIN E PADDING NO INICIO DO CSS */
+    padding: 0;
+    margin: 0;
+    box-sizing:content-box;
+    font-family: "Lato", sans-serif ;
+}
+body {/* 
+    background: url(./bck.jpg) center center fixed no-repeat ;
+    background-size: cover;  */
+    background-color: #f09820; 
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+    font-style: italic;
+    display: inline-flex;
+    background-color: azure;
+    width: max-content;
+}
+
+/* CONTAINER */
+.container{
+    padding: 150px 0;
+    background-color: #f09820;  
+    text-align: center;
+    justify-content: baseline;
+    display: inline-block;
+    width: fit-content;/* 
+    top: 55%;
+    left: 35%; */
+    /* margin: -25px 0 0 -25px; */ 
+}
+
+.name {
+    background-color: azure;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 5%;
+}
+
+
+.name p{
+    transition: 325ms;
+    border-radius: 1em;
+    color: #f09820;
+    transition-delay: 100ms;
+}
+
+.name p:hover, .name p:focus{ /* MUDANÇA DE COR AO PASSAR O MOUSE EM CIMA */
+    color: #fff;
+    background-color: #f09820;
+    
+}
+
+.container .name h1{
+    font-size: 55px;
+
+}
+
+.container .name p{
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.social ul{
+    padding: 15px 55px;    
+    margin: -55px auto;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.container .social ul li{
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 10px 0 10px;
+}
+
+#foto_perfil > img{   /* AFETANDO O IMG DENTRO DA ID foto_perfil*/
+    border-radius: 50%;
+    margin: 0 auto;
+}   
+
