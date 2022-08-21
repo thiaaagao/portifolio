@@ -1,4 +1,4 @@
-<h1 align="center">Bem-vindo ao meu portifolio 👋</h1>
+<h1 align="center">Bem-vindo ao meu portifolio 👋 1.0</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://twitter.com/Thiaaagao" target="_blank">
